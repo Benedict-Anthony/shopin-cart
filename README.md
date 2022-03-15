@@ -1,3 +1,3 @@
 # shopin-cart
 shopping UI
-a project from front mentor done with html,css and javaScrip
+a project from frontend mentor done with html,css and javaScript
