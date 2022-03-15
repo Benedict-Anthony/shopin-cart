@@ -592,7 +592,8 @@ footer{
     color: var(--White);
     font-size: 1.7rem;
     background-color: var(--Black);
-    padding: 2rem;
+    /* padding: 1rem; */
+    margin-top: 2rem;
 }
 
 footer span{
