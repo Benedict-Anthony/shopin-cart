@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cartcss/cart.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <title>Cart Session</title>
+</head>
+<body>
+    <section>
+        <header class="header">
+            <div class="logo">
+                <span>Sneakers</span>
+            </div>
+    
+            <nav class="nav__bar">
+                <ul>
+                    <li class="nav__item"><a href="#">collections</a></li>
+                    <li class="nav__item"><a href="#">men</a></li>
+                    <li class="nav__item"><a href="#">women</a></li>
+                    <li class="nav__item"><a href="#">about</a></li>
+                    <li class="nav__item"><a href="#">contact</a></li>
+                </ul>
+                <div class="nav__menu__close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </nav>
+    
+            <div class="user__details">
+                <div class="cart__menu">
+                    <i class="fa-solid fa-cart-shopping"><a href="#">0</a></i>
+                </div>
+    
+                <div class="user__profile">
+                    <img src="images/image-avatar.png" alt="">
+                </div>
+            </div>
+    
+            <div class="nav__menu__open">
+                <i class="fas fa-bars"></i>
+            </div>
+    
+    
+            <div class="cart__items">
+                <h2>cart</h2>
+                <div class="check__out__cart__page">
+                    <div class="check__out__page">
+                        <img src="images/image-product-1-thumbnail.jpg" alt="">
+                        <div>Auutum limited edition
+                            <br>
+                            <small></small>
+                        </div>
+                        <img src="images/icon-delete.svg" alt="">
+                    </div>
+                    <a class="btn" href="#">CheckOut</a>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="cart__page">
+            <div class="cart__page__images">
+                <div class="gallery">
+                    <div class="current__image show">
+                        <a href="#">
+                            <img src="images/image-product-1.jpg" alt="">
+                        </a>
+                     </div>
+
+                     <div  class="current__image">
+                        <a href="#">
+                            <img src="images/image-product-2.jpg" alt="">
+                        </a>
+                     </div>
+                     <div  class="current__image">
+                        <a href="#">
+                            <img src="images/image-product-3.jpg" alt="">
+                        </a>
+                     </div >
+                     <div  class="current__image">
+                        <a href="#">
+                            <img src="images/image-product-4.jpg" alt="">
+                        </a>
+                     </div>
+                </div>
+
+                <div class="nextbtn"> <img src="images/icon-next.svg" alt=""></div>
+                <div class="prevbtn"><img src="images/icon-previous.svg" alt=""></div>
+
+
+                <div class="thumb-nails">
+                    <div class="image">
+                        <img src="images/image-product-1.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="images/image-product-2.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="images/image-product-3.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="images/image-product-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cart__page__info">
+                <div class="sub__title">sneaker company</div>
+
+                <h1 class="main__title">fall limited edition sneakers</h1>
+
+                <p> These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+
+                <div class="price__tag">
+                    <div class="price">
+                        <span>$125.00</span>
+                        <br>
+                        <span> $250.00 0</span>
+                    </div>
+                    <div class="discount">
+                        <span> 50%</span>
+                    </div>
+                </div>
+
+                <div class="check__out">
+                    <div class="item__list">
+                        <div class="remove">
+                            <img src="images/icon-minus.svg" alt="">
+                        </div>
+
+                        <div class="counter">
+                            <input type="number" value="0">
+                        </div>
+                        <div class="add">
+                            <img src="images/icon-plus.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="btn btn-cart"><img src="images/icon-cart.svg" alt=""><a href="#">add to Cart</a></div>
+                </div>
+            </div>
+        </main>
+
+        <!-- preview on full screen -->
+
+        <div class="preview__container">
+            <div class="preview_images__box">
+                    <div class="images__box show__preview">
+                        <img src="images/image-product-1.jpg" alt="">
+                    </div>
+    
+                    <div class="images__box">
+                        <img src="images/image-product-2.jpg" alt="">
+                    </div>
+    
+                    <div class="images__box">
+                        <img src="images/image-product-3.jpg" alt="">
+                    </div>
+    
+                    <div class="images__box">
+                        <img src="images/image-product-4.jpg" alt="">
+                    </div>
+            </div>
+             <div class="nextbtn"> <img src="images/icon-next.svg" alt=""></div>
+            <div class="prevbtn"><img src="images/icon-previous.svg" alt=""></div>
+            <div class="close__preview__image"><img src="images/icon-close.svg" alt=""></div>
+            </div>
+
+    </section>
+
+
+
+    <footer> Created By <span>Benedict Anthony</span></footer>
+
+    <script src="cartjs/cart.js"></script>
+</body>
+</html>
